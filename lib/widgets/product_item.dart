@@ -28,6 +28,7 @@ class ProductItem extends StatelessWidget {
             child: Text(
               product.title,
               textAlign: TextAlign.center,
+              //style: TextStyle(fontSize: 1),
             ),
           ),
           backgroundColor: Colors.black87,
